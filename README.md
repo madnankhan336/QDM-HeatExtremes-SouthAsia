@@ -14,25 +14,7 @@ Python.
 
 ---
 
-## Scripts by figure
 
-| Manuscript item | Analysis (Python, `analysis/`) | Plotting (R, `figures/`) |
-|---|---|---|
-| Fig. 2 — mean warming preservation | `fig2_mean_warming_analysis.py` | `fig2_mean_warming.R` |
-| Fig. 3 — days >35 °C and >40 °C | `fig3_absolute_thresholds_analysis.py` | `fig3_absolute_thresholds.R` |
-| Fig. 4 — P95 / P99 exceedances | `fig4_percentile_exceedances_analysis.py` | `fig4_percentile_exceedances.R` |
-| Fig. 5 — HW95 persistence | `fig5_heatwave_persistence_analysis.py` | `fig5_and_fig6_heatwave_and_temporal.R` |
-| Fig. 6 — consecutive P95 run-length | `fig6_temporal_dependence_analysis.py` | `fig5_and_fig6_heatwave_and_temporal.R` |
-| Fig. 7 — R_IQR across quantiles, index S | `fig7_quantile_uncertainty_analysis.py` | `fig7_quantile_uncertainty.R` |
-| Fig. 8 — hazard amplification A per °C | `fig8_tail_amplification_analysis.py` | `fig8_tail_amplification.R` |
-| Fig. 9 — spatial diagnostics | `fig9_spatial_diagnostics.py` (analysis + plot) | (same file) |
-| Table S7 / Fig. S2 — historical validation | `validation_tableS7_figS2.py` (analysis + plot) | (same file) |
-| Fig. 1 — schematic | *(no code; drawn manually)* | — |
-
-One R file (`fig5_and_fig6_heatwave_and_temporal.R`) draws **both** Fig. 5 and Fig. 6, since the
-heatwave-persistence and temporal-dependence panels share a layout.
-
----
 
 ## Repository layout
 
