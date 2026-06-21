@@ -26,33 +26,6 @@ Python.
 fig5_and_fig6_heatwave_and_temporal.R draws both Fig. 5 and Fig. 6, since theheatwave-persistence and temporal-dependence panels share a layout.
 
 
-## Repository layout
-
-heat-risk-qdm-south-asia/
-README.md
- LICENSE
- requirements.txt          # Python dependencies
-r_packages.txt            # R packages used by figures/
-.gitignore
-analysis/                 # Python: computes the CSV summary tables
- fig2_mean_warming_analysis.py
- fig3_absolute_thresholds_analysis.py
- fig4_percentile_exceedances_analysis.py
- fig5_heatwave_persistence_analysis.py
- fig6_temporal_dependence_analysis.py
- fig7_quantile_uncertainty_analysis.py
- fig8_tail_amplification_analysis.py
- fig9_spatial_diagnostics.py
- validation_tableS7_figS2.py
-figures/# R: reads the CSV tables and draws the figures
-   fig2_mean_warming.R
-   fig3_absolute_thresholds.R
-   fig4_percentile_exceedances.R
-   fig5_and_fig6_heatwave_and_temporal.R
-   fig7_quantile_uncertainty.R
-   fig8_tail_amplification.R
-
-
 ## Conventions (identical across all scripts)
 - Land-only cells (sea set to NaN and ignored).
 - Cosine-latitude area weighting for all regional means.
