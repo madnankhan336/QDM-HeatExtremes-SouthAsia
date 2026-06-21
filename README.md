@@ -1,7 +1,6 @@
 # Trend-preserving bias correction reshapes future heat-risk metrics and ensemble uncertainty over South Asia
 
-Analysis and figure code for the manuscript by Adnan et al. (Earth's Future, submitted; #2026EF009286).
-
+Analysis and figure code Trend-preserving bias correction reshapes future heat-risk metrics and ensemble uncertainty over South Asia
 The workflow compares **RAW** CMIP6 daily-mean near-surface air temperature (`tas`) against **QDM**
 (Quantile Delta Mapping) bias-corrected output from nine CMIP6 models over South Asia
 (58–98°E, 2–38°N) under SSP1-2.6, SSP2-4.5 and SSP5-8.5, for a 1985–2014 baseline and three
@@ -44,16 +43,6 @@ heat-risk-qdm-south-asia/
     └── fig8_tail_amplification.R
 ```
 
-## How to reproduce
-
-1. **Input data** (not redistributed here — see the Open Research statement for sources):
-   place the land-masked RAW and QDM NetCDF files under a base directory in the structure the
-   scripts expect (RAW historical/SSP and QDM historical/SSP subfolders).
-2. **Set the base path.** Each script defines a single `BASE` variable near the top
-   (currently `G:/Paper2_updated/LAND_MASKED`). Edit it to your local path.
-3. **Run the Python analysis scripts** (`analysis/`). Each writes its summary CSV tables.
-4. **Run the R scripts** (`figures/`) to render the PNG/PDF figures from those tables.
-5. **Fig. 9** and the **validation** outputs are produced entirely by their Python scripts.
 
 ## Conventions (identical across all scripts)
 - Land-only cells (sea set to NaN and ignored).
