@@ -1,4 +1,4 @@
-# Trend-preserving bias correction reshapes future heat-risk metrics and ensemble uncertainty over South Asia
+# Trend-preserving bias correction reshapes future heat-risk metrics and ensemble uncertainty over South Asia.
 
 Analysis and figure code Trend-preserving bias correction reshapes future heat-risk metrics and ensemble uncertainty over South Asia
 The workflow compares **RAW** CMIP6 daily-mean near-surface air temperature (`tas`) against **QDM**
